@@ -114,18 +114,7 @@ async def start(_, message):
     await message.reply_photo(
         photo=f"https://telegra.ph/file/027283ee9defebc3298b8.png",
         caption=f"""**━━━━━━━━━━━━━━━━━━━━━━━━
-💥 Hᴇʟʟᴏ, I Aᴍ Gᴇɴɪᴜs » Aɴ Aᴅᴠᴀɴᴄᴇᴅ
-Pʀᴇᴍɪᴜᴍ Tᴇʟᴇɢʀᴀᴍ Usᴇʀ Bᴏᴛ.
-
-┏━━━━━━━━━━━━━━━━━━━┓
-┣★ Oᴡɴᴇʀ'xD› : [Aᴅɪᴛʏᴀ Hᴀʟᴅᴇʀ](https://t.me/KannaHalder)
-┣★ Uᴘᴅᴀᴛᴇs ›› : [Aᴅɪᴛʏᴀ Sᴇʀᴠᴇʀ](https://t.me/adityaserver)
-┣★ Sᴜᴘᴘᴏʀᴛ » : [Aᴅɪᴛʏᴀ Dɪsᴄᴜs](https://t.me/adityadiscus)
-┗━━━━━━━━━━━━━━━━━━━┛
-
-💞 Cʟɪᴄᴋ Oɴ Dᴇᴘʟᴏʏ Bᴜᴛᴛᴏɴ Tᴏ Mᴀᴋᴇ
-Yᴏᴜʀ Oᴡɴ » Gᴇɴɪᴜs Usᴇʀ Bᴏᴛ.
-━━━━━━━━━━━━━━━━━━━━━━━━**""",
+💥 Hᴇʟʟᴏ, I Aᴍ Pᴇɴᴛᴀ Usᴇʀ Bᴏᴛ.**""",
     reply_markup=InlineKeyboardMarkup(
             [
                 [
@@ -152,10 +141,10 @@ async def help_parser(name, keyboard=None):
         keyboard = InlineKeyboardMarkup(paginate_modules(0, HELPABLE, "help"))
     return (
         """**🥀 Wᴇʟᴄᴏᴍᴇ Tᴏ Hᴇʟᴘ Mᴇɴᴜ Oғ :
-Gᴇɴɪᴜs UsᴇʀBᴏᴛ Vᴇʀ : `2.0` 🔥...
+Gᴇɴɪᴜs Pᴇɴᴛᴀ Usᴇʀ Bᴏᴛ Vᴇʀ : `3.0` 🔥...
 
 💞 Jᴜsᴛ Cʟɪᴄᴋ Oɴ Bᴇʟᴏᴡ Iɴʟɪɴᴇ
-Tᴏ Gᴇᴛ Gᴇɴɪᴜs Cᴏᴍᴍᴀɴᴅs ✨...**
+Tᴏ Gᴇᴛ Fᴀᴋᴇ Cᴏᴍᴍᴀɴᴅs ✨...**
 """.format(
             first_name=name
         ),
@@ -181,10 +170,10 @@ async def help_button(client, query):
     back_match = re.match(r"help_back", query.data)
     create_match = re.match(r"help_create", query.data)
     top_text = f"""**🥀 Wᴇʟᴄᴏᴍᴇ Tᴏ Hᴇʟᴘ Mᴇɴᴜ Oғ :
-Gᴇɴɪᴜs UsᴇʀBᴏᴛ Vᴇʀ : `2.0` 🔥...
+Pᴇɴᴛᴀ UsᴇʀBᴏᴛ Vᴇʀ : `2.0` 🔥...
 
 💞 Jᴜsᴛ Cʟɪᴄᴋ Oɴ Bᴇʟᴏᴡ Iɴʟɪɴᴇ
-Tᴏ Gᴇᴛ Gᴇɴɪᴜs Cᴏᴍᴍᴀɴᴅs ✨...**
+Tᴏ Gᴇᴛ Fᴀᴋᴇ Cᴏᴍᴍᴀɴᴅs ✨...**
  """
     if mod_match:
         module = mod_match.group(1)
