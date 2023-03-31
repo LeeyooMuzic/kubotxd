@@ -1,7 +1,7 @@
 import asyncio
 from KannaHalder.modules.databases import cli
 
-collection = cli["Kanna"]["afk"]
+collection = cli["penta"]["afk"]
 
 
 async def set_afk(afk_status, afk_since, reason):
