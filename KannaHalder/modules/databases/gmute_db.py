@@ -1,6 +1,6 @@
 from KannaHalder.modules.databases import cli
 
-collection = cli["Kanna"]["gmute"]
+collection = cli["penta"]["gmute"]
 
 
 async def gmute_user(chat):
