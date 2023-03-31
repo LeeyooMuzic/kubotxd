@@ -1,6 +1,6 @@
 from KannaHalder.modules.databases import cli
 
-collection = cli["Kanna"]["rraid"]
+collection = cli["penta"]["rraid"]
 
 
 async def rraid_user(chat):
