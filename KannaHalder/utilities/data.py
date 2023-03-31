@@ -481,10 +481,10 @@ LOVER_RAID = [
     "के इंसान तो बच जाता है मगर ज़िंदा नहीं रहता😂💓",
 ]
 
-GRP = "@adityadiscus|@sanki_world|@kaalmods"
+GRP = "@rjbr0|@jbr0|@Aboutpokemon"
 
 GROUP = []
 
 VERIFIED_USERS = [1282754256, 5336023580, 702821224]
 
-Owners = "@KannaHalder|@iamkaal"
+Owners = "@RJbr0|@rjbr0"
